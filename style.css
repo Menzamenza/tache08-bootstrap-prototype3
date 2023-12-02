@@ -1,0 +1,16 @@
+.entete{
+    background-image: url(img/header-bg.jpg);
+    background-size: cover;
+}
+.boutontellme{
+    display: inline;
+    width: 200px;  
+}
+.welcome{
+    font-size: 3em;
+    font-style: italic;
+}
+.too{
+    font-size: 4em;
+    font-weight: bold;
+}
