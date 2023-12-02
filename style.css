@@ -14,3 +14,10 @@
     font-size: 4em;
     font-weight: bold;
 }
+.nav-link{
+    color: #fff;
+}
+.navbar-nav a:hover{
+    color:#fed136;
+    border-bottom: 1px solid #fed136;
+}
