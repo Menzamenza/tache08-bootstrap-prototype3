@@ -21,3 +21,34 @@
     color:#fed136;
     border-bottom: 1px solid #fed136;
 }
+.portfolio-item{
+    position: relative;
+}
+.port-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fed136;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.portfolio-link:hover .port-hover{
+    display: flex;
+}
+.flex-team-icon{
+    width: 40px;
+    height: 40px;
+}
+#contact{
+    background-image: url(/img/nuit-lumieres-Terre-Europe.jpg);
+    background-size: cover;
+}
+input::placeholder,textarea::placeholder{
+    color: darkgrey;
+    font-size: large;
+}
