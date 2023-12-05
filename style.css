@@ -50,7 +50,7 @@
     height: 40px;
 }
 #contact{
-    background-image: url(/img/nuit-lumieres-Terre-Europe.jpg);
+    background-image: url(img/nuit-lumieres-Terre-Europe.jpg);
     background-size: cover;
 }
 input::placeholder,textarea::placeholder{
