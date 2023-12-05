@@ -47,7 +47,6 @@
               <p class="too">IT'S NICE TO MEET YOU</p>
               <div class="my-5 py-5">
                 <button class="btn btn-warning boutontellme p-4 fw-bold text-light">TELL ME MORE</button>
-
               </div>
             </div>
           </div>
@@ -377,9 +376,55 @@
     <!-- -------------------------------------------fin porfolio----------------------------------- -->
     
     <!-- -------------------------------------------about------------------------------------------- -->
-    <div class="container bg-white text-center py-5" id="about">
-      <p class="fs-1 fw-bold pt-5">ABOUT</p>
+    <div class="container bg-white " id="about">
+      <div class="row text-center">
+        <p class="fs-1 fw-bold pt-5">ABOUT</p>
       <p class="fw-semibold fs-5 fst-italic pb-5 text-secondary">Lorem, ipsum dolor amet consectetur.</p>
+      </div>
+      <!-- ----timeline---- -->
+      <div class="timeline">
+       
+        <div class="box-timeline box-left">
+          <img src="/img/timeline1.jpg" alt="timeline" class="img-fluid rounded-circle border-5 border ">
+          <div class="text-box">
+            <h3>2019-2011</h3>
+            <h4>Our Humble Beginnings</h4>
+            <p class="fw-semibold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga perferendis porro eaque nisi doloremque ab ea, voluptatem culpa et aliquid maxime vero voluptates quaerat optio temporibus omnis qui eligendi reprehenderit!</p>
+          </div>
+        </div>
+
+        <div class="box-timeline box-right">
+          <img src="/img/timeline2.jpg" alt="timeline" class="img-fluid rounded-circle border-5 border ">
+          <div class="text-box ">
+            <h3>March 2011</h3>
+            <h4>An Agency is Born</h4>
+            <p class="fw-semibold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga perferendis porro eaque nisi doloremque ab ea, voluptatem culpa et aliquid maxime vero voluptates quaerat optio temporibus omnis qui eligendi reprehenderit!</p>
+          </div>
+        </div>
+
+        <div class="box-timeline box-left">
+          <img src="/img/timeline3.jpg" alt="timeline" class="img-fluid rounded-circle border-5 border">
+          <div class="text-box">
+            <h3>December 2015</h3>
+            <h4>Transition To Full Service</h4>
+            <p class="fw-semibold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga perferendis porro eaque nisi doloremque ab ea, voluptatem culpa et aliquid maxime vero voluptates quaerat optio temporibus omnis qui eligendi reprehenderit!</p>
+          </div>
+        </div>
+
+        <div class="box-timeline box-right">
+          <img src="/img/timeline4.jpg" alt="timeline" class="img-fluid rounded-circle border-5 border">
+          <div class="text-box ">
+            <h3>July 2020</h3>
+            <h4>Phase Two Expansion</h4>
+            <p class="fw-semibold text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga perferendis porro eaque nisi doloremque ab ea, voluptatem culpa et aliquid maxime vero voluptates quaerat optio temporibus omnis qui eligendi reprehenderit!</p>
+          </div>
+        </div>
+
+        <div class="bloc-text text-center bg-warning d-inline-block rounded-circle  text-white border-5 border fw-semibold">
+          <p>Be Part <br> Of Our <br> Story!</p>
+        </div>
+
+      </div>
     </div>
     <!-- ------------------------------------------fin about------------------------------------------ -->
     
@@ -471,22 +516,49 @@
       <p class="fw-semibold fs-5 fst-italic pb-5 text-secondary">Lorem, ipsum dolor amet consectetur.</p>
       
       <div class="row px-5">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <form action="#" class="d-flex flex-column" >
-            <input type="text" name="name" id="name" placeholder="Your Name*" class="px-5 py-3 bg-white rounded-3 mb-4 border-1 border-light ">
-            <input type="text" name="name" id="name" placeholder="Your Email*" class="px-5 py-3 bg-white rounded-3 mb-4 border-1 border-light">
-            <input type="text" name="name" id="name" placeholder="Your Phone*" class="px-5 py-3 bg-white rounded-3 mb-4 border-1 border-light">
+            <input type="text" name="name" id="name" placeholder="Your Name*" class="px-5 py-3 bg-white rounded-3 mb-4 border-1 border-light " required>
+            <input type="text" name="name" id="name" placeholder="Your Email*" class="px-5 py-3 bg-white rounded-3 mb-4 border-1 border-light" required>
+            <input type="text" name="name" id="name" placeholder="Your Phone*" class="px-5 py-3 bg-white rounded-3 mb-4 border-1 border-light" required>
           </form>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <form action="#">
-            <textarea name="comments" id="comment" cols="75" rows="9" class="border-1 border-light rounded-3 " placeholder="Your Message*"></textarea>
+            <textarea name="comments" id="comment" rows="9" class="border-1 border-light rounded-3 w-100 " placeholder="Your Message*"></textarea>
           </form>
         </div>
       </div>
+      <a href="#" class="btn btn-warning p-4 text-white fw-semibold m-5">SEND MESSAGE</a>
     </div>
     <!-- ----------------------------------------------fin contact------------------------------------------ -->
     
+
+    <!-- ----------------------------------------------------footer-------------------------------------------------- -->
+    <div class="container-fluid">
+      <div class="row py-4 px-5 align-items-center text-sm-center">
+        <div class="col-lg-4">
+          <p>Copyright My Website 2023 Menza <i class="fa-solid fa-heart" style="color: #201c1c;"> </i></p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="flex-team d-flex align-items-center justify-content-center">
+            <div class="flex-team-icon bg-dark rounded-circle p-2 mx-1">
+              <i class="fab fa-twitter" style="color:#fff;"></i>
+            </div>
+            <div class="flex-team-icon bg-dark rounded-circle p-2 mx-1 ">
+              <i class="fab fa-facebook-f " style="color: #fff;"></i>
+            </div>
+            <div class="flex-team-icon bg-dark rounded-circle p-2 mx-1 ">
+              <i class="fab fa-linkedin-in " style="color: #fff;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 text-foot">
+          <p>Privacy Policy Term of use</p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------------------------fin footer-------------------------------------------- -->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
